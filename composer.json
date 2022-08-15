@@ -1,0 +1,23 @@
+{
+    "name": "t99w/aliyunlogsls",
+    "description": "Laravel framework and Alibaba cloud log service package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "T99w\\Aliyunlogsls\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "T-99w",
+            "email": "3264676288@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.2.1",
+        "alibabacloud/aliyun-log-php-sdk": "^0.6.3",
+        "ext-json": "*"
+    }
+}
