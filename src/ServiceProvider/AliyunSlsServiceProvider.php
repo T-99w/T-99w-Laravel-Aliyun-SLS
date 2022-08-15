@@ -21,7 +21,7 @@ class AliyunSlsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/./config/aliyunlog.php' => config_path('aliyunlog.php'),
+            __DIR__ . '/config/aliyunlog.php' => config_path('aliyunlog.php'),
         ]);
     }
 
@@ -33,7 +33,7 @@ class AliyunSlsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/./config/aliyunlog.php', 'aliyunlog'
+            __DIR__ . '/config/aliyunlog.php', 'aliyunlog'
         );
     }
 
